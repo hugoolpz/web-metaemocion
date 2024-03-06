@@ -25,10 +25,10 @@ const slide = ref(1)
             control-color="me-rojo-claro"
             autoplay
           >
-            <q-carousel-slide :name="1" :img-src="$t('src/assets/tarjetas/foto-noticia-logo.jpg')" />
-            <q-carousel-slide :name="2" :img-src="$t('src/assets/tarjetas/foto-noticia-logo2.jpg')" />
-            <q-carousel-slide :name="3" :img-src="$t('src/assets/tarjetas/foto-noticia-logo3.jpg')" />
-            <q-carousel-slide :name="4" :img-src="$t('src/assets/tarjetas/foto-noticia-logo4.jpg')" />
+            <q-carousel-slide :name="1" :img-src="$t('../assets/foto-noticia-logo.jpg')" />
+            <q-carousel-slide :name="2" :img-src="$t('../assets/foto-noticia-logo2.jpg')" />
+            <q-carousel-slide :name="3" :img-src="$t('../assets/foto-noticia-logo3.jpg')" />
+            <q-carousel-slide :name="4" :img-src="$t('../assets/foto-noticia-logo4.jpg')" />
           </q-carousel>
         </q-card>
       </div>
