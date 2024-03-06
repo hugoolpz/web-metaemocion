@@ -1,5 +1,5 @@
 <template>
-  <q-card class="tarjeta-em cursor-pointer" bordered v-ripple @click="$emit('alClickar')">
+  <q-card class="tarjeta-em cursor-pointer q-mt-md" bordered v-ripple @click="$emit('alClickar')">
     <q-img
       :src="foto || 'https://cdn.quasar.dev/img/parallax2.jpg'"
       style="max-height: 200px"

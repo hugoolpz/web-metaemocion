@@ -7,7 +7,7 @@ function irHaciaLinkedIn() {
 </script>
 
 <template>
-  <q-card bordered class="tarjeta-miembro">
+  <q-card bordered class="tarjeta-miembro q-mt-lg">
     <q-img :src="foto" style="width: 250px; height: 250px">
       <div class="absolute-bottom text-body2">
         {{nombre}}

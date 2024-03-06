@@ -4,7 +4,7 @@
       <q-header>
         <q-toolbar class="bg-me-gradiente">
           <q-btn class="text-me-negro bg-white" icon="fas fa-list" @click="menuIzq = !menuIzq"></q-btn>
-          <q-toolbar-title class="text-weight-bold cursor-pointer" @click="$router.push('/')">MET@EMOCIÓN <q-avatar><img src="../assets/iconoMetaemocion.jpg" alt="icono-metaemocion"></q-avatar></q-toolbar-title>
+          <q-toolbar-title class="text-weight-bold cursor-pointer" @click="$router.push('/')">MET@EMOCIÓN <q-avatar><img src="/iconoMetaemocion.jpg" alt="icono-metaemocion"></q-avatar></q-toolbar-title>
           <q-btn-dropdown v-model="idioma" class="text-me-negro bg-white" dropdown-icon="none" auto-close>
             <template v-slot:label>
               <div class="row absolute-center">
