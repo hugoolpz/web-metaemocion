@@ -16,5 +16,5 @@
 import { ref } from 'vue';
 const props = defineProps(["titulo", "codBandera", "codIdioma", "idioma"])
 const emits = defineEmits(['alClickar'])
-const urlFoto = ref(`../assets/${props.codBandera}.png`)
+const urlFoto = ref(`/${props.codBandera}.png`)
 </script>

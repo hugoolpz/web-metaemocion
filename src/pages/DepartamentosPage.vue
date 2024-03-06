@@ -45,7 +45,7 @@
     <div class="column " v-show="departamento === 'diseno'">
       <div class="row flex-center q-gutter-xl">
         <div class="col-auto col-md-auto col-sm-auto col-xs-auto">
-          <tarjeta-miembro-component nombre="Verónica de Antonio Filippova" foto="/foto-veronica.jpg" linkedin="https://www.linkedin.com/in/ver%C3%B3nica-de-antonio-filippova-491306274/"></tarjeta-miembro-component>
+          <tarjeta-miembro-component nombre="Verónica de Antonio Filippova" foto="/foto-veronica.jpeg" linkedin="https://www.linkedin.com/in/ver%C3%B3nica-de-antonio-filippova-491306274/"></tarjeta-miembro-component>
         </div>
         <div class="col-auto col-md-auto col-sm-auto col-xs-auto">
           <tarjeta-miembro-component nombre="Luna Arteaga Toro" foto="/foto-luna.jpeg" linkedin="https://www.linkedin.com/in/luna-arteaga-toro-921745222/"></tarjeta-miembro-component>
